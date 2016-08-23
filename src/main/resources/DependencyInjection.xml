@@ -1,0 +1,22 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="artifact" class="projects.helloworld.dependencyinjection.Artifact"/>
+
+    <bean id="ambiguousConstructorInjection" class="projects.helloworld.dependencyinjection.AmbiguousConstructorInjection">
+        <constructor-arg index="0" ref="artifact"/>
+        <constructor-arg index="1" value="Constructor"/>
+        <constructor-arg index="2" value="Ambiguous"/>
+    </bean>
+
+    <bean id="constructorInjection" class="projects.helloworld.dependencyinjection.ConstructorInjection">
+        <constructor-arg ref="artifact"/>
+    </bean>
+
+    <bean id="setterInjection" class="projects.helloworld.dependencyinjection.SetterInjection">
+        <property name="artifact" ref="artifact"/>
+    </bean>
+
+</beans>

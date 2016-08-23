@@ -1,0 +1,7 @@
+Aug 22, 2016 9:54:28 PM org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@199939: startup date [Mon Aug 22 21:54:28 EDT 2016]; root of context hierarchy
+Aug 22, 2016 9:54:28 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [DependencyInjection.xml]
+Artifact injected by: Setter
+Artifact injected by: Constructor
+Artifact injected by: Ambiguous Constructor
