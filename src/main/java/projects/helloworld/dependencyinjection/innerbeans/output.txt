@@ -1,0 +1,7 @@
+Aug 24, 2016 8:29:03 PM org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@a4488: startup date [Wed Aug 24 20:29:03 EDT 2016]; root of context hierarchy
+Aug 24, 2016 8:29:04 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [InnerBeanContext.xml]
+Inside inner bean constructor.
+Inside outer bean.
+Inner bean action
