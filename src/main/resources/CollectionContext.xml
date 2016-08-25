@@ -1,0 +1,50 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="countryCollection" class="projects.helloworld.collections.CountryCollection">
+
+        <property name="countryList">
+            <list>
+                <value>Nigeria</value>
+                <value>U.S.A</value>
+                <value>Canada</value>
+                <value>London</value>
+            </list>
+        </property>
+
+        <property name="countrySet">
+            <list>
+                <value>Nigeria</value>
+                <value>Nigeria</value>
+                <value>U.S.A</value>
+                <value>U.S.A</value>
+                <value>Canada</value>
+                <value>Canada</value>
+                <value>London</value>
+                <value>London</value>
+            </list>
+        </property>
+
+        <property name="countryMap">
+            <map>
+                <entry key="1" value="Nigeria"/>
+                <entry key="2" value="U.S.A"/>
+                <entry key="3" value="Canada"/>
+                <entry key="4" value="London"/>
+            </map>
+        </property>
+
+        <property name="countryProperties">
+            <props>
+                <prop key="one">Nigeria</prop>
+                <prop key="two">U.S.A</prop>
+                <prop key="three">Canada</prop>
+                <prop key="four">London</prop>
+            </props>
+        </property>
+
+    </bean>
+
+</beans>

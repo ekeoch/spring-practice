@@ -1,0 +1,8 @@
+Aug 25, 2016 7:22:50 PM org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@9ff0a8: startup date [Thu Aug 25 19:22:50 EDT 2016]; root of context hierarchy
+Aug 25, 2016 7:22:50 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [CollectionContext.xml]
+List Elements: [Nigeria, U.S.A, Canada, London]
+Set Elements: [Nigeria, U.S.A, Canada, London]
+Map Elements: {1=Nigeria, 2=U.S.A, 3=Canada, 4=London}
+Property ELements: {two=U.S.A, one=Nigeria, three=Canada, four=London}
