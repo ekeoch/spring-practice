@@ -1,0 +1,7 @@
+Aug 25, 2016 7:56:41 PM org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1ecfe07: startup date [Thu Aug 25 19:56:41 EDT 2016]; root of context hierarchy
+Aug 25, 2016 7:56:41 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [AutowireContext.xml]
+Artifact autowired by: By Constructor
+Artifact autowired by: By Name
+Artifact autowired by: By Type

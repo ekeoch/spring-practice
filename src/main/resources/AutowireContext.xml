@@ -1,0 +1,15 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="artifact" class="projects.helloworld.autowiring.Artifact"/>
+
+    <bean id="constructorAutowire" class="projects.helloworld.autowiring.ConstructorAutowire" autowire="constructor">
+        <constructor-arg value="By Constructor"/>
+    </bean>
+
+    <bean id="nameAutowire" class="projects.helloworld.autowiring.NameAutowire" autowire="byName"/>
+    <bean id="typeAutowire" class="projects.helloworld.autowiring.TypeAutowire" autowire="byType"/>
+
+</beans>
